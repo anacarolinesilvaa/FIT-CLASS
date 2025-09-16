@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIT CLASS - Academia</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #000; /* fundo preto */
+      color: #FFD700; /* amarelo ouro */
+    }
+    .navbar, .footer {
+      background-color: #000;
+    }
+    .btn-custom {
+      background-color: #FFD700;
+      color: #000;
+      font-weight: bold;
+    }
+    .btn-custom:hover {
+      background-color: #e6c200;
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold text-warning" href="#">FIT CLASS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link text-warning" href="#">Início</a></li>
+              <li class="nav-item"><a class="nav-link text-warning" href="#">Planos</a></li>
+              <li class="nav-item"><a class="nav-link text-warning" href="#">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Aparelho.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h5>Bem-vindo à FIT CLASS</h5>
+                <p>Seu treino começa aqui!</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Academia2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h5>Planos Opcionais</h5>
+                <p>Se adapte ao seu ritmo!</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Dança2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h5>Diversas Aulas</h5>
+                <p>Aqui vc encontra dança, musculação e demais opções!</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="mx-auto p-2" style="width: 200px;">
+        NOSSOS SERVIÇOS
+      </div>
+      <br>
+        <div class="card-body">
+          <h5 class="card-title">Musculação</h5>
+          <p class="card-text">Musculação para todas as idades!
+            Treinos personalizados, estrutura completa e professores qualificados.</p>
+          <a href="#" class="btn btn-primary">Mais informações</a>
+        </div>
+        <br>
+        <div class="card-body">
+          <h5 class="card-title">Dança</h5>
+          <p class="card-text">Do funk ao samba, do pop ao latino, aqui na FIT CLASS vc se cuida e se diverte.</p>
+          <a href="#" class="btn btn-primary">Mais informações</a>
+        </div>
+        <br>
+      <div class="mx-auto p-2" style="width: 200px;">
+        EXPERIMENTE QUANDO QUISER
+      </div>
+      <br>
+    
+        <div class="btn-group" role="group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Escolha seu plano
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Semanal</a></li>
+            <li><a class="dropdown-item" href="#">Mensal</a></li>
+            <li><a class="dropdown-item" href="#">Anual</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</html>
